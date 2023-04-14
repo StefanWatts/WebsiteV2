@@ -30,13 +30,18 @@
   }
   
   .l-font {
-    font-size: 45px;
+    font-size: 0.1rem;
     color: #03071e;
   }
   
   .xl-font {
-    font-size: 65px;
-    color: #03071e;
+   font-size: 4em;
+    letter-spacing: 0.05em;
+        /*display: flex;*/
+    position: relative;
+    display: inline-block;
+    align-items: center;
+
   }
   
   .button {
@@ -101,12 +106,4 @@
     color: black;
   }
 
-  h1 {
-    font-size: 3em;
-    letter-spacing: 0.05em;
-    
-    /*display: flex;*/
-    position: relative;
-    display: inline-block;
-    align-items: center;
-  }
+  
