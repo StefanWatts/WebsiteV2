@@ -62,7 +62,7 @@
     max-width: 100%;
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 75rem) {
     .column-one,
     .column-two {
       width: 100%;
